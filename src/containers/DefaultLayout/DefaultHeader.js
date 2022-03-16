@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Nav, NavItem } from 'reactstrap';
 import PropTypes from 'prop-types';
-import NotifyMe from "react-notification-timeline";
 
 import {
   AppNavbarBrand,
@@ -84,18 +83,6 @@ class DefaultHeader extends Component {
             <NavItem className="d-sm-down-none mr-2 ml-4 ml-lg-2">
              <NavItem style={{ minWidth: "40px", width: "45px"  }}>
            
-            <NotifyMe
-                      data={data}
-                      storageKey="notific_key"
-                      notific_key="timestamp"
-                      notific_value="update"
-                      heading="Notification"
-                      sortedByKey={false}
-                      showDate={true}
-                      size={24}
-                      color="red"
-                      theme    ="white"
-            />
            
             </NavItem> 
             
